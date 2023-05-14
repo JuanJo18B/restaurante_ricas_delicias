@@ -2,7 +2,6 @@
 	--rojo: #E50914;
 	--fondo: #181818;
 }
-
 * {
 	margin: 0;
 	padding: 0;
@@ -40,6 +39,7 @@ header nav a {
 	color: #AAA;
 	text-decoration: none;
 	margin-right: 20px;
+	font-size: 20px;
 }
 
 header nav a:hover,
@@ -48,11 +48,11 @@ header nav a.activo {
 }
 
 /* ---- ----- ----- Pelicula Principal ----- ----- ----- */
-.pelicula-principal {
+.contenedor_inicio_principal {
 	font-size: 16px;
 	min-height: 40.62em;
 	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/backdrop.jpg);
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../images/fondo.jpg);
 	background-position: center center;
 	background-size: cover;
 	margin-bottom: 3.12em;
@@ -60,18 +60,18 @@ header nav a.activo {
 	align-items: end;
 }
 
-.pelicula-principal .contenedor {
+.contenedor_inicio_principal .contenedor {
 	margin: 0 auto;
 	margin-bottom: 6.25em;
 }
 
-.pelicula-principal .titulo {
+.contenedor_inicio_principal .titulo {
 	font-weight: 600;
 	font-size: 3.12em;
 	margin-bottom: 0.4em;
 }
 
-.pelicula-principal .descripcion {
+.contenedor_inicio_principal .descripcion {
 	font-weight: normal;
 	font-size: 1em;
 	line-height: 1.75em;
@@ -79,7 +79,7 @@ header nav a.activo {
 	margin-bottom: 1.25em;
 }
 
-.pelicula-principal .boton {
+.contenedor_inicio_principal .boton {
 	background: rgba(0,0,0, 0.5);
 	border: none;
 	border-radius: 0.31em;
@@ -91,12 +91,12 @@ header nav a.activo {
 	font-size: 1.12em;
 }
 
-.pelicula-principal .boton:hover {
+.contenedor_inicio_principal .boton:hover {
 	background: #fff;
 	color: #000;
 }
 
-.pelicula-principal .boton i {
+.contenedor_inicio_principal .boton i {
 	margin-right: 1.25em;
 }
 
@@ -128,18 +128,20 @@ header nav a.activo {
 
 
 /* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
-.peliculas-recomendadas {
+.especialidades_contenedor {
+	width: 100%;
 	margin-bottom: 70px;
 }
 
-.peliculas-recomendadas .contenedor-principal {
+.especialidades_contenedor .contenedor-principal {
 	display: flex;
+	width: 100%;
 	align-items: center;
 	position: relative;
 }
 
-.peliculas-recomendadas .contenedor-principal .flecha-izquierda,
-.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+.especialidades_contenedor .contenedor-principal .flecha-izquierda,
+.especialidades_contenedor .contenedor-principal .flecha-derecha {
 	position: absolute;
 	border: none;
 	background: rgba(0,0,0,0.3);
@@ -154,44 +156,44 @@ header nav a.activo {
 	transition: .2s ease all;
 }
 
-.peliculas-recomendadas .contenedor-principal .flecha-izquierda:hover,
-.peliculas-recomendadas .contenedor-principal .flecha-derecha:hover {
+.especialidades_contenedor .contenedor-principal .flecha-izquierda:hover,
+.especialidades_contenedor .contenedor-principal .flecha-derecha:hover {
 	background: rgba(0,0,0, .9);
 }
 
-.peliculas-recomendadas .contenedor-principal .flecha-izquierda {
+.especialidades_contenedor .contenedor-principal .flecha-izquierda {
 	left: 0;
 }
 
-.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+.especialidades_contenedor .contenedor-principal .flecha-derecha {
 	right: 0;
 }
 
 /* ---- ----- ----- Carousel ----- ----- ----- */
-.peliculas-recomendadas .contenedor-carousel {
+.especialidades_contenedor .contenedor-carousel {
 	width: 100%;
 	padding: 20px 0;
 	overflow: hidden;
 	scroll-behavior: smooth;
 }
 
-.peliculas-recomendadas .contenedor-carousel .carousel {
+.especialidades_contenedor .contenedor-carousel .carousel {
 	display: flex;
 	flex-wrap: nowrap;
 }
 
-.peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
+.especialidades_contenedor .contenedor-carousel .carousel .pelicula {
 	min-width: 20%;
 	transition: .3s ease all;
 	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
 }
 
-.peliculas-recomendadas .contenedor-carousel .carousel .pelicula.hover {
+.especialidades_contenedor .contenedor-carousel .carousel .pelicula.hover {
 	transform: scale(1.2);
 	transform-origin: center;
 }
 
-.peliculas-recomendadas .contenedor-carousel .carousel .pelicula img {
+.especialidades_contenedor .contenedor-carousel .carousel .pelicula img {
 	width: 100%;
 	vertical-align: top;
 }
@@ -208,27 +210,79 @@ header nav a.activo {
 		text-align: center;
 	}
 
-	.pelicula-principal {
+	.contenedor_inicio_principal {
 		font-size: 14px;
 	}
 
-	.pelicula-principal .descripcion {
+	.contenedor_inicio_principal .descripcion {
 		max-width: 100%;
 	}
 
-	.peliculas-recomendadas .contenedor-carousel {
+	.especialidades_contenedor .contenedor-carousel {
 		overflow: visible;
 	}
 
-	.peliculas-recomendadas .contenedor-carousel .carousel {
+	.especialidades_contenedor .contenedor-carousel .carousel {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 20px;
 	}
 
-	.peliculas-recomendadas .indicadores,
-	.peliculas-recomendadas .flecha-izquierda,
-	.peliculas-recomendadas .flecha-derecha {
+	.especialidades_contenedor .indicadores,
+	.especialidades_contenedor .flecha-izquierda,
+	.especialidades_contenedor .flecha-derecha {
 		display: none;
 	}
 }
+
+.footer-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+  }
+  .footer-section {
+	flex: 1;
+	margin: 0 10px;
+  }
+  .footer-section h3 {
+	color: white;
+  }
+  .social-icons {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+  }
+  .social-icons li {
+	margin-right: 18px;
+  }
+  .social-icons a {
+	color: antiquewhite;
+	font-size: 30px;
+  }
+  .social-icons a:hover {
+	color: #e40914;
+  }
+  .social-foo {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+  }
+  .social-foo a {
+	color: #aaa;
+	font-size: 15px;
+	margin-right: 40px;
+  }
+  .social-foo a:hover{
+	  color: rgb(255, 255, 255);
+  }
+  .derechos{
+	  color: #aaa;
+	  display: flex;
+	  font-size: 15px;
+	  justify-content: center;
+	  align-content: center;
+	  align-items: center;
+	  align-self: center;
+  }
