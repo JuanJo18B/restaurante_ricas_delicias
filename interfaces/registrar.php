@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/style_login.css">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-	<title>Ricas Delicias - Login</title>
+    <title>Registrarse</title>
 </head>
 <body>
-    <header>
+<header>
 		<div class="contenedor">
 			<h2 class="logotipo">Ricas delicias</h2>
 			<nav>
@@ -23,33 +23,7 @@
 			</nav>
 		</div>
 	</header>
-	<main>
-		<div id="fondo_sesion" class="fondo_sesion">
-			<div class="iniciar_sesion" id="iniciar_sesion">
-				<h2>Inicio de sesión</h2>
-				<hr>
-				<input type="text" name="nombre_user" class="txt_nombre" id="nombre_user" placeholder="Nombre de usuario">
-				<button name="iniciar" class="btn_login"><a href="inicio_sesion.php">Iniciar</a></button>
-				<br>
-				<br>
-				<input type="password" name="contraseña" class="txt_contra" id="contraseña" placeholder="Contraseña">
-				<button name="registrarme" class="btn_login"><a href="../interfaces/registrar.php">Registrarme</a></button>
-				<br>
-				<br>
-				<label><input type="checkbox" id="ch_empleado" value="1">Soy empleado</label>
-				<div id="div_empleado">
-					<label > <input type="checkbox" value="mesero" id="ck_mesero"> Mesero </label>
-					<br>
-					<label > <input type="checkbox" value="cocinero" id="ck_cocinero"> Cocinero </label>
-					<br>
-					<label > <input type="checkbox" value="Gerente" id="ck_gerente"> Gerente </label>
-					<br>
-					<input type="codigo" name="codico" class="txt_codigo" id="codogo" placeholder="código">
-				</div>
-			</div>
-		</div>
-	</main>
-	<footer style="background-color: #1b1b1b; padding: 20px;">
+    <footer style="background-color: #1b1b1b; padding: 20px;">
 		<div class="footer-container">
 		<div class="footer-section">
 			<br>
@@ -72,7 +46,5 @@
 	</footer>
 	<script src="https://kit.fontawesome.com/71b9e775fc.js" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-	<script src="../js/main.js"></script>
-	<script src="../js/login.js"></script>
 </body>
 </html>
