@@ -41,3 +41,10 @@ a{
 label{
     font-size: 18px;
 }
+#div_empleado{
+    display: none;
+}
+.txt_codigo{
+    width: 200px;
+    height: 28px;
+}

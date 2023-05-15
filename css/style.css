@@ -73,10 +73,7 @@ header nav a.activo {
 
 .contenedor_inicio_principal .descripcion {
 	font-weight: normal;
-	font-size: 1em;
-	line-height: 1.75em;
-	max-width: 50%;
-	margin-bottom: 1.25em;
+	font-size: 25px;
 }
 
 .contenedor_inicio_principal .boton {
@@ -110,6 +107,7 @@ header nav a.activo {
 .contenedor-titulo-controles h3 {
 	color: #838383;
 	font-size: 30px;
+	margin-left: 10px;
 }
 
 .contenedor-titulo-controles .indicadores button {
