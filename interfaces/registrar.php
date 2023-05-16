@@ -40,7 +40,7 @@
 				<a> Contacto</a>
 			</ul>
 			<br>
-			<p class="derechos">© 2023 Tus Películas. Todos los derechos reservados.</p>
+			<p class="derechos">© 2023 Ricas Delicias. Todos los derechos reservados.</p>
 		</div>
 		</div>
 	</footer>
