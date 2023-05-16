@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="date"],
+.formulario input[type="number"],
+.formulario input[type="password"]
+{
+    font-size: 18px;
+}
+body {
+    background-color: rgb(250, 205, 78);
+}
