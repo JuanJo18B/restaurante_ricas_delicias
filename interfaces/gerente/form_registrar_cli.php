@@ -15,10 +15,10 @@
 		<div class="contenedor">
 			<h2 class="logotipo">Ricas delicias</h2>
 			<nav>
-				<a href="./perfil_gerente.php">Perfil</a>
+				<a href="./perfil_gerente.php">Mi perfil</a>
 				<a href="./menu.html">Menú</a>
 				<a href="./servicios.html">Servicios</a>
-				<a href="./contacto.html">Contacto</a>
+				<a href="../../interfaces/iniciar_sesion.html">Salir</a>
 			</nav>
 		</div>
 	</header>
