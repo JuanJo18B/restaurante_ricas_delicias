@@ -60,6 +60,7 @@ header nav a.activo {
 	align-items: end;
 }
 
+
 .contenedor_inicio_principal .contenedor {
 	margin: 0 auto;
 	margin-bottom: 6.25em;
@@ -96,6 +97,57 @@ text-align:left;
 	font-size: 1.12em;
 }
 /*-------------nosotros------*/
+.contenedor_inicio_principal1 {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background:  url(../images/banner.png);
+	height: calc(100vh);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: center;
+}
+
+
+.contenedor_inicio_principal1 .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+
+.contenedor_inicio_principal1 .titulo {
+	font-weight: 600;
+	font-size: 47px;
+	margin-bottom: 0.4em;
+	color: var(--fondo);
+}
+
+.contenedor_inicio_principal1 .descripcion {
+	font-weight: normal;
+	font-size: 25px;
+} 
+
+.contenedor_inicio_principal1 .descripcion_2{
+font-weight: normal;
+font-size: 25px;
+width:50%;
+text-align:left;
+}
+
+
+.contenedor_inicio_principal1 .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+
 .contenedor{
  margin: auto;
 }
@@ -167,6 +219,20 @@ text-align:left;
 
 }
 
+.watsap img{
+    display:block;
+    width:70px;
+    height:70px;
+    
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+ 
 
 /*---------------------------*/
 
