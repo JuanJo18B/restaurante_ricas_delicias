@@ -24,30 +24,32 @@
 		</div>
 	</header>
 	<main>
-		<div id="fondo_sesion" class="fondo_sesion">
-			<div class="iniciar_sesion" id="iniciar_sesion">
-				<h2>Inicio de sesión</h2>
-				<hr>
-				<input type="text" name="nombre_user" class="txt_nombre" id="nombre_user" placeholder="Nombre de usuario">
-				<button name="iniciar" class="btn_login"><a href="inicio_sesion.php">Iniciar</a></button>
-				<br>
-				<br>
-				<input type="password" name="contraseña" class="txt_contra" id="contraseña" placeholder="Contraseña">
-				<button name="registrarme" class="btn_login"><a href="../interfaces/form_registrar.php">Registrarme</a></button>
-				<br>
-				<br>
-				<label><input type="checkbox" id="ch_empleado" value="1">Soy empleado</label>
-				<div id="div_empleado">
-					<label > <input type="checkbox" value="mesero" id="ck_mesero"> Mesero </label>
+		<form method="POST" action="../BD/login.php">
+			<div id="fondo_sesion" class="fondo_sesion">
+				<div class="iniciar_sesion" id="iniciar_sesion">
+					<h2>Inicio de sesión</h2>
+					<hr>
+					<input type="text" name="nombre_user" class="txt_nombre" id="nombre_user" placeholder="Nombre de usuario">
+					<button name="iniciar" class="btn_login" type="submit">Iniciar</a></button>
 					<br>
-					<label > <input type="checkbox" value="cocinero" id="ck_cocinero"> Cocinero </label>
 					<br>
-					<label > <input type="checkbox" value="Gerente" id="ck_gerente"> Gerente </label>
+					<input type="password" name="contraseña" class="txt_contra" id="contraseña" placeholder="Contraseña">
+					<button name="registrarme" class="btn_login"><a href="../interfaces/form_registrar.php">Registrarme</a></button>
 					<br>
-					<input type="codigo" name="codico" class="txt_codigo" id="codogo" placeholder="código">
+					<br>
+					<label><input type="checkbox" id="ch_empleado" value="1">Soy empleado</label>
+					<div id="div_empleado">
+						<label > <input type="checkbox" value="mesero" id="ck_mesero"> Mesero </label>
+						<br>
+						<label > <input type="checkbox" value="cocinero" id="ck_cocinero"> Cocinero </label>
+						<br>
+						<label > <input type="checkbox" value="Gerente" id="ck_gerente"> Gerente </label>
+						<br>
+						<input type="codigo" name="codigo" class="txt_codigo" id="codogo" placeholder="código">
+					</div>
 				</div>
 			</div>
-		</div>
+		</form>
 	</main>
 	<footer style="background-color: #1b1b1b; padding: 20px;">
 		<div class="footer-container">
