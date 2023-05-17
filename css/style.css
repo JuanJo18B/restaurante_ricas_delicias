@@ -68,6 +68,9 @@ header nav a.activo {
 }
 
 .contenedor_inicio_principal .titulo {
+	color: black;
+	font-size: 30px;
+	margin-left: 10px;
 	font-weight: 600;
 	font-size: 3.12em;
 	margin-bottom: 0.4em;
@@ -115,7 +118,7 @@ text-align:left;
 }
 
 .contenedor-titulo-controles h3 {
-	color: #838383;
+	color: black;
 	font-size: 30px;
 	margin-left: 10px;
 }
