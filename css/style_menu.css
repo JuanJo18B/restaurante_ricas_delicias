@@ -297,7 +297,7 @@ text-align:left;
 	border: 5px solid rgb(0, 0, 0);
 	background-color: #000000;
 	color: white;
-	height: 500px;
+	height: 650px;
 	width: 300px;
 	padding-top:20px;
 	padding-bottom:20px;
@@ -305,13 +305,14 @@ text-align:left;
 	padding-right:20px;
 	position: relative;
 	left: 2%;
+	
   }
 
   .costilla{
 	border: 5px solid rgb(0, 0, 0);
 	background-color: #000000;
 	color: white;
-	height: 500px;
+	height: 650px;
 	width: 300px;
 	padding-top:20px;
 	padding-bottom:20px;
@@ -319,14 +320,14 @@ text-align:left;
 	padding-right:20px;
 	position: relative;
 	left: 28%;
-	bottom: 500px;
+	bottom: 650px;
   }
 
   .tacos{
 	border: 5px solid rgb(0, 0, 0);
 	background-color: #000000;
 	color: white;
-	height: 500px;
+	height: 650px;
 	width: 300px;
 	padding-top:20px;
 	padding-bottom:20px;
@@ -334,14 +335,14 @@ text-align:left;
 	padding-right:20px;
 	position: relative;
 	left: 53%;
-	bottom: 1000px;
+	bottom: 1300px;
   }
   
   .perro{
 	border: 5px solid rgb(0, 0, 0);
 	background-color: #000000;
 	color: white;
-	height: 500px;
+	height: 650px;
 	width: 300px;
 	padding-top:20px;
 	padding-bottom:20px;
@@ -349,11 +350,8 @@ text-align:left;
 	padding-right:20px;
 	position: relative;
 	left: 78%;
-	bottom: 1500px;
+	bottom: 1950px;
 }
-
-
-
 
   .order {
 	font-weight:600;
@@ -366,6 +364,9 @@ text-align:left;
 	background-color:#d4db80;
 	border-radius:35px;
 	cursor: pointer;
+	text-align: center;
+	margin-left: 20%
+
   }
 
   .order2 {
@@ -379,6 +380,8 @@ text-align:left;
 	background-color:#d4db80;
 	border-radius:35px;
 	cursor: pointer;
+	text-align: center;
+	margin-left: 20%
   }
 
   .order3 {
@@ -392,6 +395,8 @@ text-align:left;
 	background-color:#d4db80;
 	border-radius:35px;
 	cursor: pointer;
+	text-align: center;
+	margin-left: 20%
   }
 
   .order4 {
@@ -405,4 +410,34 @@ text-align:left;
 	background-color:#d4db80;
 	border-radius:35px;
 	cursor: pointer;
+	text-align: center;
+	margin-left: 20%
+  }
+
+  .hambu {
+	height: 150px;
+	width: 50x;
+	display:block;
+margin:auto;
+  }
+
+  .costill {
+	height: 150px;
+	width: 50x;
+	display:block;
+margin:auto;
+  }
+
+  .taco {
+	height: 150px;
+	width: 50x;
+	display:block;
+margin:auto;
+  }
+
+  .pero {
+	height: 150px;
+	width: 50x;
+	display:block;
+margin:auto;
   }
