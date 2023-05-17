@@ -74,7 +74,15 @@ header nav a.activo {
 .contenedor_inicio_principal .descripcion {
 	font-weight: normal;
 	font-size: 25px;
+} 
+
+.contenedor_inicio_principal .descripcion_2{
+font-weight: normal;
+font-size: 25px;
+width:50%;
+text-align:left;
 }
+
 
 .contenedor_inicio_principal .boton {
 	background: rgba(0,0,0, 0.5);
