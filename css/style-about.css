@@ -182,39 +182,83 @@ text-align:left;
 
 /*---------nuestras promociones--------------*/
 .nuestras-promociones{
-
+ width: 100%;
+ background-color: #f6f6f6;
+ padding: 100px 0;
 }
 
 .titulo-seccion{
-
+ font-family: sans-serif;
+ font-weight: bold;
+ color: #e40914;
+ font-size: 40px;
+ padding-bottom: 40px;
+ text-align: center;
 }
 
 .nuestras-ofertas{
-
+display: -webkit-flex;
+padding: 0 25px;
 }
 
 .ofertas{
-
+ width: 20%;
+ margin: 0 25px;
 }
 
 .ofertas-imagenes{
-
+ width: 100%;
+ height: 300px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .ofertas-imagenes img{
-
+object-fit: cover;
+width: 100%;
 }
 
-.ofertas-precio{
 
-}
 
 .precios{
-
+display: flex;
+justify-content: space-between;
 }
 
+.precios h3{
+ font-size: 19px;
+}
 
+.precios h4{
+	font-size: 24px;
+	color: #e40914;
+}
+/*-------vision-----------------*/
+.titulo_sobre_nosotros_vision{
+	font-family: 'roboto', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: #d6040e;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
 
+.text_vision{
+	width: 60%;
+}
+
+.vision_texto{
+	font-family: 'roboto', sans-serif;
+	font-size: 21px;
+	color: #080808;
+	padding: 0 15% 0 0;
+	text-align: justify;
+}
+
+.vision{
+ display: flex;
+}
 
 
 
