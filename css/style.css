@@ -95,6 +95,80 @@ text-align:left;
 	transition: .3s ease all;
 	font-size: 1.12em;
 }
+/*-------------nosotros------*/
+.contenedor{
+ margin: auto;
+}
+.sobre_nosotros{
+ width: 75%;
+ margin: auto;
+ padding: 100px 0;
+}
+
+.titulo_sobre_nosotros{
+ font-family: 'roboto', sans-serif;
+ font-size: 40px;
+ font-weight: bold;
+ color: #d6040e;
+}
+
+.mision{
+	display: flex;
+}
+
+.text_mision{
+	width: 60%;
+}
+
+.mision_texto{
+ font-family: 'roboto', sans-serif;
+ font-size: 21px;
+ color: #080808;
+ padding: 0 10% 0 0;
+ text-align: justify;
+}
+
+.mision{
+
+}
+
+.boton1{
+
+}
+.boton1{
+	padding: 10% 0 0 0;
+}
+.boton5{
+    background-color: rgba(248, 50, 50, 0.877);
+    border:solid 1px;
+      font-weight: bold;
+      padding: 20px 40px;
+     margin-left: 160px;
+      color: #ffffff;
+      border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+  }
+  
+  .boton5:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+	color: #E50914;
+  }
+
+.img_mision{
+	width: 40%;
+}
+
+.imagen-mi{
+ object-fit: cover;
+ width: 100%;
+ border-radius: 5px;
+
+}
+
+
+/*---------------------------*/
 
 .contenedor_inicio_principal .boton:hover {
 	background: #fff;
