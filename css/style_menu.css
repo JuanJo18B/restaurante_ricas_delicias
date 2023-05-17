@@ -18,7 +18,6 @@ body {
 	margin: auto;
 }
 
-
 header {
 	padding: 20px 0;
 }
@@ -60,7 +59,6 @@ header nav a.activo {
 	display: flex;
 	align-items: end;
 }
-
 
 .contenedor_inicio_principal .contenedor {
 	margin: 0 auto;
@@ -293,4 +291,118 @@ text-align:left;
 	  align-content: center;
 	  align-items: center;
 	  align-self: center;
+  }
+
+  .hamburguesa{
+	border: 5px solid rgb(0, 0, 0);
+	background-color: #000000;
+	color: white;
+	height: 500px;
+	width: 300px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;
+	position: relative;
+	left: 2%;
+  }
+
+  .costilla{
+	border: 5px solid rgb(0, 0, 0);
+	background-color: #000000;
+	color: white;
+	height: 500px;
+	width: 300px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;
+	position: relative;
+	left: 28%;
+	bottom: 500px;
+  }
+
+  .tacos{
+	border: 5px solid rgb(0, 0, 0);
+	background-color: #000000;
+	color: white;
+	height: 500px;
+	width: 300px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;
+	position: relative;
+	left: 53%;
+	bottom: 1000px;
+  }
+  
+  .perro{
+	border: 5px solid rgb(0, 0, 0);
+	background-color: #000000;
+	color: white;
+	height: 500px;
+	width: 300px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;
+	position: relative;
+	left: 78%;
+	bottom: 1500px;
+}
+
+
+
+
+  .order {
+	font-weight:600;
+	font-size:20px;
+	color:#000000;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:40px;
+	padding-right:40px;
+	background-color:#d4db80;
+	border-radius:35px;
+	cursor: pointer;
+  }
+
+  .order2 {
+	font-weight:600;
+	font-size:20px;
+	color:#000000;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:40px;
+	padding-right:40px;
+	background-color:#d4db80;
+	border-radius:35px;
+	cursor: pointer;
+  }
+
+  .order3 {
+	font-weight:600;
+	font-size:20px;
+	color:#000000;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:40px;
+	padding-right:40px;
+	background-color:#d4db80;
+	border-radius:35px;
+	cursor: pointer;
+  }
+
+  .order4 {
+	font-weight:600;
+	font-size:20px;
+	color:#000000;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:40px;
+	padding-right:40px;
+	background-color:#d4db80;
+	border-radius:35px;
+	cursor: pointer;
   }
