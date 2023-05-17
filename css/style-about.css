@@ -47,37 +47,40 @@ header nav a.activo {
 	color: #FFF;
 }
 
-/* ---- ----- ----- Pelicula Principal ----- ----- ----- */
-.contenedor_inicio_principal {
+
+/*-------------nosotros------*/
+.contenedor_inicio_principal1 {
 	font-size: 16px;
 	min-height: 40.62em;
 	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../images/fondo.jpg);
+	background:  url(../images/banner.png);
+	height: calc(100vh);
 	background-position: center center;
 	background-size: cover;
 	margin-bottom: 3.12em;
 	display: flex;
-	align-items: end;
+	align-items: center;
 }
 
 
-.contenedor_inicio_principal .contenedor {
+.contenedor_inicio_principal1 .contenedor {
 	margin: 0 auto;
 	margin-bottom: 6.25em;
 }
 
-.contenedor_inicio_principal .titulo {
+.contenedor_inicio_principal1 .titulo {
 	font-weight: 600;
-	font-size: 3.12em;
+	font-size: 47px;
 	margin-bottom: 0.4em;
+	color: var(--fondo);
 }
 
-.contenedor_inicio_principal .descripcion {
+.contenedor_inicio_principal1 .descripcion {
 	font-weight: normal;
 	font-size: 25px;
 } 
 
-.contenedor_inicio_principal .descripcion_2{
+.contenedor_inicio_principal1 .descripcion_2{
 font-weight: normal;
 font-size: 25px;
 width:50%;
@@ -85,7 +88,7 @@ text-align:left;
 }
 
 
-.contenedor_inicio_principal .boton {
+.contenedor_inicio_principal1 .boton {
 	background: rgba(0,0,0, 0.5);
 	border: none;
 	border-radius: 0.31em;
@@ -96,6 +99,88 @@ text-align:left;
 	transition: .3s ease all;
 	font-size: 1.12em;
 }
+
+.contenedor{
+ margin: auto;
+}
+.sobre_nosotros{
+ width: 75%;
+ margin: auto;
+ padding: 100px 0;
+}
+
+.titulo_sobre_nosotros{
+ font-family: 'roboto', sans-serif;
+ font-size: 40px;
+ font-weight: bold;
+ color: #d6040e;
+}
+
+.mision{
+	display: flex;
+}
+
+.text_mision{
+	width: 60%;
+}
+
+.mision_texto{
+ font-family: 'roboto', sans-serif;
+ font-size: 21px;
+ color: #080808;
+ padding: 0 10% 0 0;
+ text-align: justify;
+}
+
+
+.boton1{
+	padding: 10% 0 0 0;
+}
+.boton5{
+    background-color: rgba(248, 50, 50, 0.877);
+    border:solid 1px;
+      font-weight: bold;
+      padding: 20px 40px;
+     margin-left: 160px;
+      color: #ffffff;
+      border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+  }
+  
+  .boton5:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+	color: #E50914;
+  }
+
+.img_mision{
+	width: 40%;
+}
+
+.imagen-mi{
+ object-fit: cover;
+ width: 100%;
+ border-radius: 5px;
+
+}
+
+.watsap img{
+    display:block;
+    width:70px;
+    height:70px;
+    
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+ 
+
+/*---------------------------*/
 
 .contenedor_inicio_principal .boton:hover {
 	background: #fff;
