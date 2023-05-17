@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../css/style.css">
-	<link rel="stylesheet" href="../css/style_reg.css" type="text/css">
+	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="stylesheet" href="../../css/style_reg.css" type="text/css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -15,19 +15,17 @@
 		<div class="contenedor">
 			<h2 class="logotipo">Ricas delicias</h2>
 			<nav>
-				<a href="./index.html">Inicio</a>
+				<a href="./perfil_gerente.php">Perfil</a>
 				<a href="./menu.html">Menú</a>
 				<a href="./servicios.html">Servicios</a>
 				<a href="./contacto.html">Contacto</a>
-				<a href="./acerca_de.html">Acerca de</a>
-				<a href="./iniciar_sesion.html">Iniciar sesión</a>
 			</nav>
 		</div>
 	</header>
 	<main>
 		<div class="container mx-auto text-center center card ">
 			<div class="card-body">
-				<form class="row g-3" method="POST" action="registrar.php">
+				<form class="row g-3" method="POST" action="./registrar2.php">
 					<div class="col-md-4">
 						<label for="nombre" class="form-label">Nombre<small class="text-danger">*</small></label>
 						<input type="text" class="form-control" id="nombre" name= "nombre" placeholder="nombre" required >

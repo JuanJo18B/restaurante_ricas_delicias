@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../css/style.css">
-	<link rel="stylesheet" href="../css/style_reg.css" type="text/css">
+	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="stylesheet" href="../../css/style_reg.css" type="text/css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -27,7 +27,7 @@
 	<main>
 		<div class="container mx-auto text-center center card ">
 			<div class="card-body">
-				<form class="row g-3" method="POST" action="registrar.php">
+				<form class="row g-3" method="POST" action="./registrar2.php">
 					<div class="col-md-4">
 						<label for="nombre" class="form-label">Nombre<small class="text-danger">*</small></label>
 						<input type="text" class="form-control" id="nombre" name= "nombre" placeholder="nombre" required >
@@ -46,6 +46,11 @@
 						<label for="celular" class="form-label">Celular<small class="text-danger">*</small></label>
 						<input type="text" class="form-control" id="celular" name= "celular" placeholder="número" required >
 					</div>
+					<div class="col-md-4">
+						<label for="cod_mesero" class="form-label">Código mesero<small class="text-danger">*</small></label>
+						<input type="text" class="form-control" id="cod_mesero" name= "cod_mesero" placeholder="código" require>
+					</div>
+
 					<div class="col-md-10 mx-auto">
                         <label class="form-label" for="contraseña">
                             Contraseña<small class="text-danger">*</small>
@@ -98,7 +103,7 @@
 		</div>
 		</div>
 	</footer>
-	<script src="..//js//validar_contra.js"></script>
+	<script src="../../js/validar_contra.js"></script>
 	<script src="https://kit.fontawesome.com/71b9e775fc.js" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>

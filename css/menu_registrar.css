@@ -1,0 +1,54 @@
+img{
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
+}
+.div_info_perfil{
+    height: 400px;
+    display: flex;
+    margin: 25px;
+    align-items: center;
+    border-radius: 15px;
+    background: linear-gradient(rgba(0, 0, 0, .70) 0%, rgba(0,0,0,.7) 100%), url(../images/fondo.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+.div_php_info{
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: wheat;
+}
+.div_info_perfil .div_menu_ge a {
+	color: black;
+    background-color:rgba(245, 245, 220, 0.8);
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 20px;
+}
+.img_cliente{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image:url(../images/cliente.png);
+    background-size: 100%;
+    text-align: center;
+}
+.img_cocinero{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image:url(../images/cocinero.png);
+    background-size: 100%;
+    text-align: center;
+}
+.img_mesero{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image:url(../images/mesero.png);
+    background-size: 100%;
+    text-align: center;
+}
+.div_menu_ge{
+    padding-left: 25%;
+}

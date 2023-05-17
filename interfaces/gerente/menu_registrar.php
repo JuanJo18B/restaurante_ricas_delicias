@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../../css/style.css">
 	<link rel="stylesheet" href="../../css/style_login.css">
-	<link rel="stylesheet" href="../../css/style_gerente.css">
+	<link rel="stylesheet" href="../../css/menu_registrar.css">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<title>Mi perfil</title>
@@ -18,10 +18,11 @@
 		<div class="contenedor">
 			<h2 class="logotipo">Ricas delicias</h2>
 			<nav>
+				<a href="./perfil_gerente.php">Perfil</a>
 				<a href="../menu.html">Menú</a>
 				<a href="../servicios.html">Servicios</a>
 				<a href="../contacto.html">Contacto</a>
-				<a href="../acerca_de.html">Salir</a>
+				<a href="../acerca_de.html">Acerca de</a>
 			</nav>
 		</div>
 	</header>
@@ -43,9 +44,9 @@
 					?>
 				</div>
 				<div class="div_menu_ge">
-					<button class="img_inv"><a href="#">Inventario</a> </button>
-					<button class="img_noti"><a href="#">Notificaciones</a></button>
-					<button class="img_regi"><a href="./menu_registrar.php">Registrar</a></button>
+					<button class="img_cliente"><a href="./form_registrar_cli.php">Registar cliente</a> </button>
+					<button class="img_cocinero"><a href="./form_registrar_coci.php">Registrar cocinero</a></button>
+					<button class="img_mesero"><a href="./form_registrar_mes.php">Registrar mesero</a></button>
 				</div>
 			</div>
 		</div>
