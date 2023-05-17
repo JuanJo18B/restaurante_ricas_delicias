@@ -5,11 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../../css/style.css">
 	<link rel="stylesheet" href="../../css/style_login.css">
+	<link rel="stylesheet" href="../../css/style_gerente.css">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<title>Mi perfil</title>
 </head>
 <body>
+	<?php
+		session_start();
+	?>
 	<header>
 		<div class="contenedor">
 			<h2 class="logotipo">Ricas delicias</h2>
@@ -24,13 +28,30 @@
 		</div>
 	</header>
 	<main>
-		<?php
-		session_start();
-		$usuario = $_SESSION['username'];
-		$correo = $_SESSION['correo'];
-		$codigo = $_SESSION['codigo'];
-		echo "<h1> Bienvenido $usuario con codiigo $codigo y correo $correo que bien</h1>";
-		?>
+		<div>
+			<div class="div_info_perfil">
+				<div >
+					<img src="../../images/logo_gerente.png" alt="">
+				</div>
+				<div class="div_php_info" >
+					<?php
+						$usuario = $_SESSION['username'];
+						$correo = $_SESSION['correo'];
+						$codigo = $_SESSION['codigo'];
+						echo "<h2>Mi perfil</h2>";
+						echo "<label> Bienvenido $usuario</label><br>";
+						echo "<label> código: $codigo</label><br>";
+						echo "<label> correo: $correo</label><br>";
+					?>
+				</div>
+				<div class="div_menu_ge">
+					<button class="img_inv"><a href="#">Inventario</a> </button>
+					<button class="img_noti"><a href="#">Notificaciones</a></button>
+					<button class="img_regi"><a href="#">Registrar</a></button>
+				</div>
+			</div>
+		</div>
+		
 	</main>
 	<footer style="background-color: #1b1b1b; padding: 20px;">
 		<div class="footer-container">
