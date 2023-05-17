@@ -297,7 +297,7 @@ text-align:left;
 	border: 5px solid rgb(0, 0, 0);
 	background-color: #000000;
 	color: white;
-	height: 650px;
+	height: 450px;
 	width: 300px;
 	padding-top:20px;
 	padding-bottom:20px;
@@ -416,16 +416,15 @@ text-align:left;
 
   .hambu {
 	height: 150px;
-	width: 50x;
-	display:block;
-margin:auto;
+	width: 50px;
+	margin:auto;
   }
 
   .costill {
 	height: 150px;
 	width: 50x;
 	display:block;
-margin:auto;
+	margin:auto;
   }
 
   .taco {

@@ -41,9 +41,9 @@
 					?>
 				</div>
 				<div class="div_menu_ge">
-					<button class="img_inv"><a href="#">Inventario</a> </button>
+					<button class="img_inv"><a href="#">Pedido</a> </button>
 					<button class="img_noti"><a href="#">Notificaciones</a></button>
-					<button class="img_regi"><a href="./menu_registrar.php">Registrar</a></button>
+					<button class="img_regi"><a href="./menu_registrar.php">Seguir pedido</a></button>
 				</div>
 			</div>
 		</div>
