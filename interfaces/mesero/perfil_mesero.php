@@ -36,7 +36,7 @@
 						$usuario = $_SESSION['username'];
 						$correo = $_SESSION['correo'];
 						$codigo = $_SESSION['codigo'];
-						echo "<h2>Mi perfil</h2>";
+						echo "<h2>Mi perfil mesero</h2>";
 						echo "<label> Bienvenido $usuario</label><br>";
 						echo "<label> código: $codigo</label><br>";
 						echo "<label> correo: $correo</label><br>";
