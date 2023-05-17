@@ -1,0 +1,8 @@
+.botones_servicios{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-right: 15px;
+}
