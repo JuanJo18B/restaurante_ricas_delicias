@@ -14,7 +14,6 @@
         $array       = mysqli_fetch_array($consulta);
         $array1       = mysqli_fetch_array($consulta1);
         if ($array['contar']>0){
-            echo("fucniona");
             $_SESSION['username'] = $usuario_ger;
             $_SESSION['correo'] = $array1['correo'];
             $_SESSION['codigo'] = $codigo_ger;
@@ -33,7 +32,6 @@
         $array       = mysqli_fetch_array($consulta);
         $array1       = mysqli_fetch_array($consulta1);
         if ($array['contar']>0){
-            echo("fucniona");
             $_SESSION['username'] = $usuario_cli;
             $_SESSION['apellido'] = $array1['apellido'];
             $_SESSION['correo'] = $array1['correo'];
@@ -53,14 +51,13 @@
         $array       = mysqli_fetch_array($consulta);
         $array1       = mysqli_fetch_array($consulta1);
         if ($array['contar']>0){
-            echo("fucniona");
             $_SESSION['username'] = $usuario_coci;
             $_SESSION['correo'] = $array1['correo'];
             $_SESSION['codigo'] = $cod_coci;
             header("location: ../interfaces/cocinero/perfil_cocinero.php");
         }
     }
-    // MESERO //
+    // INICIO SESION MESERO //
     if (isset($_POST['nombre_user']) && isset($_POST['contraseña']) && isset($_POST['codigo']) && isset($_POST['ck_mesero'])){
         $usuario_mes = $_POST['nombre_user'];
         $contraseña  = $_POST['contraseña'];
@@ -72,7 +69,6 @@
         $array       = mysqli_fetch_array($consulta);
         $array1       = mysqli_fetch_array($consulta1);
         if ($array['contar']>0){
-            echo("fucniona");
             $_SESSION['username'] = $usuario_mes;
             $_SESSION['correo'] = $array1['correo'];
             $_SESSION['codigo'] = $cod_mes;
