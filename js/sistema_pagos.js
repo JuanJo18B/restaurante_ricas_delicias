@@ -8,6 +8,7 @@ function seleccionado (evt){
         ck_tarjeta.disabled = true
         ck_transferencia.disabled = true
         ck_beneficios.disabled = true
+         
     }else{
         ck_efectivo.disabled = false
         ck_tarjeta.disabled = false
