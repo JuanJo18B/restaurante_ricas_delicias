@@ -43,7 +43,7 @@
 					?>
 				</div>
 				<div class="div_menu_ge">
-					<button class="img_inv"><a href="#">Inventario</a> </button>
+					<button class="img_inv"><a href="../inventario/index_coci.php?vista=product_list">Inventario</a> </button>
 					<button class="img_noti"><a href="./notifi_cocinero.php">Notificar</a></button>
 					<button class="img_regi"><a href="#">Recetas</a></button>
 				</div>

@@ -53,7 +53,7 @@
 					?>
 				</div>
 				<div class="div_menu_ge">
-					<button class="img_inv"><a href="../inventario/index.php">Inventario</a> </button>
+					<button class="img_inv"><a href="../inventario/index.php?vista=product_list">Inventario</a> </button>
 					<button class="img_regi"><a href="./menu_registrar.php">Registrar</a></button>
 				</div>
 			</div>
