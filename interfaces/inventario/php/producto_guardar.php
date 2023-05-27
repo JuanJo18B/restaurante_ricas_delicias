@@ -4,10 +4,10 @@
 	/*== Almacenando datos ==*/
 	$codigo=limpiar_cadena($_POST['producto_codigo']);
 	$nombre=limpiar_cadena($_POST['producto_nombre']);
-
 	$precio=limpiar_cadena($_POST['producto_precio']);
 	$stock=limpiar_cadena($_POST['producto_stock']);
 	$categoria=limpiar_cadena($_POST['producto_categoria']);
+    $fecha_exp = limpiar_cadena($_POST['fecha_exp']);
 
 
 	/*== Verificando campos obligatorios ==*/
@@ -190,7 +190,7 @@
 
 	/*== Guardando datos ==*/
     $guardar_producto=conexion();
-    $guardar_producto=$guardar_producto->prepare("INSERT INTO producto(producto_codigo,producto_nombre,producto_precio,producto_stock,producto_foto,categoria_id,usuario_id) VALUES(:codigo,:nombre,:precio,:stock,:foto,:categoria,:usuario)");
+    $guardar_producto=$guardar_producto->prepare("INSERT INTO producto(producto_codigo,producto_nombre,producto_precio,producto_stock,producto_foto,categoria_id,usuario_id,fecha_exp) VALUES(:codigo,:nombre,:precio,:stock,:foto,:categoria,:usuario,:fecha_exp)");
 
     $marcadores=[
         ":codigo"=>$codigo,
@@ -199,6 +199,7 @@
         ":stock"=>$stock,
         ":foto"=>$foto,
         ":categoria"=>$categoria,
+        ":fecha_exp"=>$fecha_exp,
         ":usuario"=>'1'
     ];
 

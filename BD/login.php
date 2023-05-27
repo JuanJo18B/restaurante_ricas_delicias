@@ -19,6 +19,9 @@
             $_SESSION['codigo'] = $codigo_ger;
             header("location: ../interfaces/gerente/perfil_gerente.php");
         }
+        else{
+            echo ("Datos incorrectos");
+        }
     
     }
     // INICIO SESION CLIENTE //
@@ -36,6 +39,9 @@
             $_SESSION['apellido'] = $array1['apellido'];
             $_SESSION['correo'] = $array1['correo'];
             header("location: ../interfaces/cliente/perfil_cliente.php");
+        }
+        else{
+            echo ("Datos incorrectos");
         }
     }
 
@@ -56,6 +62,9 @@
             $_SESSION['codigo'] = $cod_coci;
             header("location: ../interfaces/cocinero/perfil_cocinero.php");
         }
+        else{
+            echo ("Datos incorrectos");
+        }
     }
     // INICIO SESION MESERO //
     if (isset($_POST['nombre_user']) && isset($_POST['contraseña']) && isset($_POST['codigo']) && isset($_POST['ck_mesero'])){
@@ -73,6 +82,9 @@
             $_SESSION['correo'] = $array1['correo'];
             $_SESSION['codigo'] = $cod_mes;
             header("location: ../interfaces/mesero/perfil_mesero.php");
+        }
+        else{
+            echo ("Datos incorrectos");
         }
     }
 ?>
