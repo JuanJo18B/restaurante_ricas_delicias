@@ -1,0 +1,196 @@
+:root {
+	--rojo: #E50914;
+	--fondo: rgb(250, 205, 78);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--fondo);
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding: 20px 0;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	color: var(--rojo);
+	font-size: 50px;
+}
+
+header nav a {
+	color: black;
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #FFF;
+}
+
+/* ---- ----- ----- metodo de pago ----- ----- ----- */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    min-height: 100vh;
+    background-color: #f6f6f6;
+  }
+  
+  .container form{
+    padding:20px;
+    width:700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  }
+  
+  .container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+  }
+  
+  .container form .row .col{
+    flex:1 1 250px;
+  }
+  
+  .container form .row .col .title{
+    font-size: 20px;
+    color:#333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .container form .row .col .inputBox{
+    margin:15px 0;
+  }
+  
+  .container form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .container form .row .col .inputBox input{
+    width: 100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+  }
+  
+  .container form .row .col .inputBox input:focus{
+    border:1px solid #000;
+  }
+  
+  .container form .row .col .flex{
+    display: flex;
+    gap:15px;
+  }
+  
+  .container form .row .col .flex .inputBox{
+    margin-top: 5px;
+  }
+  
+  .container form .row .col .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+  }
+  
+  .container form .submit-btn{
+    width: 100%;
+    padding:12px;
+    font-size: 17px;
+    background: rgb(250, 205, 78);
+    color:rgb(15, 15, 15);
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .container form .submit-btn:hover{
+    background: #fa3b3b;
+  }
+
+/*---------------------------------------------------*/
+.footer-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+  }
+  .footer-section {
+	flex: 1;
+	margin: 0 10px;
+  }
+  .footer-section h3 {
+	color: white;
+  }
+  .social-icons {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+  }
+  .social-icons li {
+	margin-right: 18px;
+  }
+  .social-icons a {
+	color: antiquewhite;
+	font-size: 30px;
+  }
+  .social-icons a:hover {
+	color: #e40914;
+  }
+  .social-foo {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+  }
+  .social-foo a {
+	color: #aaa;
+	font-size: 15px;
+	margin-right: 40px;
+  }
+  .social-foo a:hover{
+	  color: rgb(255, 255, 255);
+  }
+  .derechos{
+	  color: #aaa;
+	  display: flex;
+	  font-size: 15px;
+	  justify-content: center;
+	  align-content: center;
+	  align-items: center;
+	  align-self: center;
+  }
+
+  
