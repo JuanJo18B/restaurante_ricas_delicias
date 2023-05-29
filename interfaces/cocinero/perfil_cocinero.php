@@ -13,6 +13,10 @@
 <body>
 	<?php
 		session_start();
+		$username = $_SESSION['username'];
+		if (!isset($username)){
+			header("location: ../iniciar_sesion.html ");
+		}
 	?>
 	<header>
 		<div class="contenedor">
@@ -21,7 +25,7 @@
 				<a href="../menu.html">Menú</a>
 				<a href="../servicios.html">Servicios</a>
 				<a href="../contacto.html">Contacto</a>
-				<a href="../acerca_de.html">Salir</a>
+				<a href="../../BD/logout.php">Salir</a>
 			</nav>
 		</div>
 	</header>
@@ -43,7 +47,7 @@
 					?>
 				</div>
 				<div class="div_menu_ge">
-					<button class="img_inv"><a href="#">Inventario</a> </button>
+					<button class="img_inv"><a href="../inventario/index_coci.php?vista=product_list">Inventario</a> </button>
 					<button class="img_noti"><a href="./notifi_cocinero.php">Notificar</a></button>
 					<button class="img_regi"><a href="#">Recetas</a></button>
 				</div>

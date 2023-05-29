@@ -14,11 +14,13 @@
         $array       = mysqli_fetch_array($consulta);
         $array1       = mysqli_fetch_array($consulta1);
         if ($array['contar']>0){
-            echo("fucniona");
             $_SESSION['username'] = $usuario_ger;
             $_SESSION['correo'] = $array1['correo'];
             $_SESSION['codigo'] = $codigo_ger;
             header("location: ../interfaces/gerente/perfil_gerente.php");
+        }
+        else{
+            echo ("Datos incorrectos");
         }
     
     }
@@ -33,11 +35,13 @@
         $array       = mysqli_fetch_array($consulta);
         $array1       = mysqli_fetch_array($consulta1);
         if ($array['contar']>0){
-            echo("fucniona");
             $_SESSION['username'] = $usuario_cli;
             $_SESSION['apellido'] = $array1['apellido'];
             $_SESSION['correo'] = $array1['correo'];
             header("location: ../interfaces/cliente/perfil_cliente.php");
+        }
+        else{
+            echo ("Datos incorrectos");
         }
     }
 
@@ -53,11 +57,34 @@
         $array       = mysqli_fetch_array($consulta);
         $array1       = mysqli_fetch_array($consulta1);
         if ($array['contar']>0){
-            echo("fucniona");
             $_SESSION['username'] = $usuario_coci;
             $_SESSION['correo'] = $array1['correo'];
             $_SESSION['codigo'] = $cod_coci;
             header("location: ../interfaces/cocinero/perfil_cocinero.php");
+        }
+        else{
+            echo ("Datos incorrectos");
+        }
+    }
+    // INICIO SESION MESERO //
+    if (isset($_POST['nombre_user']) && isset($_POST['contraseña']) && isset($_POST['codigo']) && isset($_POST['ck_mesero'])){
+        $usuario_mes = $_POST['nombre_user'];
+        $contraseña  = $_POST['contraseña'];
+        $cod_mes  = $_POST['codigo'];
+        $sql         = "SELECT COUNT(*) as contar FROM meseros WHERE cod_mes = '$cod_mes'";
+        $sql1        = "SELECT * FROM meseros WHERE cod_mes = '$cod_mes'";
+        $consulta    = mysqli_query($con,$sql);
+        $consulta1    = mysqli_query($con,$sql1);
+        $array       = mysqli_fetch_array($consulta);
+        $array1       = mysqli_fetch_array($consulta1);
+        if ($array['contar']>0){
+            $_SESSION['username'] = $usuario_mes;
+            $_SESSION['correo'] = $array1['correo'];
+            $_SESSION['codigo'] = $cod_mes;
+            header("location: ../interfaces/mesero/perfil_mesero.php");
+        }
+        else{
+            echo ("Datos incorrectos");
         }
     }
 ?>

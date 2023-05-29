@@ -1,0 +1,14 @@
+.botones_servicios{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-right: 15px;
+}
+.vistos{
+    text-align: center; 
+    vertical-align: middle;
+
+
+}

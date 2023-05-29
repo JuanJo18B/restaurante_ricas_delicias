@@ -1,0 +1,52 @@
+:root {
+	--rojo: #E50914;
+	--fondo: rgb(250, 205, 78);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar-link{
+    border-radius: 15px;
+}
+body {
+	background: var(--fondo);
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+
+header {
+	padding: 20px 0;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logotipo {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	color: var(--rojo);
+	font-size: 50px;
+    margin-right: 20%;
+}
+
+header nav a {
+	color: black;
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #FFF;
+}
