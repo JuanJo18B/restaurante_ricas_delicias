@@ -6,6 +6,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/style_reg.css">
+	<link rel="stylesheet" href="../css/style_servicios.css">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<title>Ricas Delicias - Beneficios</title>
@@ -31,10 +32,17 @@
 		<div class="card-body">
 			<h5 class="card-title">ACUMULA PUNTOS O ACUMULA NUMERO DE COMPRAS</h5>
 		</div>
+		
 		<div class="progress">
-			<div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-		</div>
-		<div class="card-footer text-muted">
+			<?php 
+			$valorMin = 0;
+			$valorMax = 100;
+			$valorObtenido = 75;
+			?>
+			<div class="progress-bar progress-bar-nuby progress-bar-striped active" role="progressbar" aria-valuenow="<?php echo $valorObtenido; ?>" aria-valuemin="<?php echo $valorMin; ?>" aria-valuemax="<?php echo $valorMax; ?>" style="width: <?php echo ($valorObtenido*100)/$valorMax; ?>%"> <?php echo $valorObtenido; ?>
+				<span class="sr-only"><?php echo $valorObtenido; ?></span>
+			</div>
+		</div><div class="card-footer text-muted">
 			PROGRESO
 		</div>
 	  </div>
