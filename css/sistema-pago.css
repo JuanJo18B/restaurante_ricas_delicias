@@ -1,3 +1,46 @@
+.celular img{
+  position: absolute;
+  height: 730px;
+  margin-left: 1050px;
+  bottom:-70px;
+}
+
+.celular .img {
+ 
+ 
+  transform: translate(0px);
+  -ms-transform: translate(0px);
+  -moz-transform: translate(0px);
+  -webkit-transform: translate(0px);
+  -o-transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.celular .text {
+  font-family: 'Open Sans';
+  position: absolute;
+  z-index: -1;
+  display: block;
+  height: 50%;
+  top: 50%;
+  right: 0;
+  padding-right: 5px;
+}
+.celular:hover .img {
+  transform: translate(-90px, 0px);
+  -ms-transform: translate(-90px, 0px);
+  -moz-transform: translate(-90px, 0px);
+  -webkit-transform: translate(-90px, 0px);
+  -o-transform: translate(-90px, 0px);
+}
+
+
+
+
+
+
 .nuestras-promociones{
     width: 100%;
  
@@ -66,6 +109,19 @@
   }
    
 /* ---- ----- ----- metodo de pago ----- ----- ----- */
+.contan{
+  background-color: #f6f6f6;
+  padding-top: 8%;
+}
+.titulo1{
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  font-size: 27px;
+  color: #000;
+  
+}
+
 *{
     font-family: 'Poppins', sans-serif;
     margin:0; padding:0;
@@ -158,8 +214,110 @@
     background: #fa3b3b;
   }
 
-/*---------------------------------------------------*/
+/*------------------pago efectivo---------------------------------*/
+.h2{
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.imagen{
+  width: 100%;
+ text-align: center;
+ margin-top: 10%;
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 80vh;
+  background-color:  rgb(250, 205, 78);
+}
+
+.container2 form{
+  padding:20px;
+  width:700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  margin-top: -200px;
+}
+
+.container2 form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.container2 form .row .col{
+  flex:1 1 250px;
+}
+
+.container2 form .row .col .title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container2 form .row .col .inputBox{
+  margin:15px 0;
+}
+
+.container2 form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container2 form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container2 form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container2 form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container2 form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+.container2 form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.container2 form .submit-btn1{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #fa3b3b;
+  
+  color:rgb(15, 15, 15);
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container2 form .submit-btn1:hover{
+ 
+  background: rgb(250, 205, 78);
+}
+
+
+
+
+
+
+
    
-   
-   
+
    
