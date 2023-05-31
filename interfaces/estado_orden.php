@@ -10,6 +10,11 @@
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<title>Ricas Delicias - Estado_Orden</title>
 </head>
+<?php
+	error_reporting(E_ERROR | E_PARSE);
+	$mesa = $_POST['mesa'];
+	$orden = $_POST['orden'];
+?>
 <body>
     <header>
 		<div class="contenedor">
@@ -27,24 +32,9 @@
 	<div class="card text-center">
 		<div class="card-header">
 			ESTADO DE LA ORDEN
-	</div>
-	<div class="form-checki">
-		<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-		<label class="form-check-label" for="flexRadioDefault1">
-		    Orden Recibida
-		</label>
-	</div>
-	<div class="form-checki">
-		<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-		<label class="form-check-label" for="flexRadioDefault2">
-	        En Preparacion
-		</label>
-	</div>
-	<div class="form-checki">
-		<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-		<label class="form-check-label" for="flexRadioDefault2">
-	        Orden Lista
-		</label>
+		</div>
+		<p>Mesa: <?php echo $mesa;?> </p>
+		<p>Estado orden: <?php echo $orden;?> </p>
 	</div>
 		
 		<div class="card-footer text-muted">
