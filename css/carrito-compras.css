@@ -181,11 +181,13 @@ header h1{
     border: none;
     background: #000;
     color: #fff;
+    text-align: center;
+    font-weight: bold;
     border-radius: 5px;
     font-size: 18px;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+   
     align-items: center;
     cursor: pointer;
     transition: .3s;
