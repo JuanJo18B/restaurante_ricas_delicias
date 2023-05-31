@@ -77,6 +77,7 @@
 				
 				<form action="../BD/edit_inv.php" method="post">
 					<?php 
+						error_reporting(E_ERROR | E_PARSE);
 						$pedido = $_POST['pedido_hambur'];
 						$pan = $_POST['Pan'];
 						$lechuga = $_POST['Lechuga'];
