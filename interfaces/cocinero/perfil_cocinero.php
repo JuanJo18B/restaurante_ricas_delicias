@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="../../css/style.css">
 	<link rel="stylesheet" href="../../css/style_login.css">
 	<link rel="stylesheet" href="../../css/style_gerente.css">
+	<link rel="stylesheet" href="../../css/style_cocinero.css" >
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<title>Mi perfil</title>
