@@ -23,16 +23,6 @@
                 </div>
             </div>
 
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">Recetas</a>
-
-                <div class="navbar-dropdown">
-                    <a href="index.php?vista=product_new" class="navbar-item">Nueva</a>
-                    <a href="index.php?vista=product_recetas" class="navbar-item">Lista</a>
-                    <a href="index.php?vista=product_search" class="navbar-item">Buscar</a>
-                </div>
-            </div>
-
         </div>
 
         <div class="navbar-end">
