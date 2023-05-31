@@ -86,6 +86,10 @@
 						$carne = $_POST['Carne'];
 						$cebolla = $_POST['Cebolla'];
 					?>
+					<?php 
+						$numero = $_POST['num_item'];
+						echo $numero;
+					?>
 					<input type="text" value="<?php echo $pedido;?>" style="display: none;" name="pedido">
 					<input type="text" value="<?php echo $pan;?>" style="display: none;" name="pan">
 					<input type="text" value="<?php echo $lechuga;?>" style="display: none;" name="lechuga">
@@ -165,7 +169,7 @@
 				
 					</div>
 			
-					<input type="submit" value="Pasar por caja" class="submit-btn">
+					<input type="submit" value="Pasar por caja" class="submit-btn" onclick="alert('transaccion exitosa, revisa tu orden !Gracias¡');">
 			
 				</form>
 			
@@ -204,7 +208,7 @@
 						
 							</div>
 					
-							<input type="submit" value="Pasar por caja" class="submit-btn1">
+							<input type="submit" value="Pasar por caja" class="submit-btn1" onclick="alert('Revisa tu orden');">
 					
 						</form>
 					</div>
