@@ -24,19 +24,29 @@
 	</header>
 	<main>
 		<div class="menu_comidas">
-			<div class="hamburguesa">
-				<h2 style="text-align:center">Hamburguesa</h2><br>
-				<img class="hambu" src="../images/Hamburguesa.jpg"><br>
-				<button class="order">Ordenar</button>
-				<br><br>
-				<strong><h3 style="text-align:center">Ingredientes:</h3></strong><br><br>
-				<p>- Pan</p>
-				<p>- Lechuga</p>
-				<p>- Mayonesa</p>
-				<p>- Tomate</p>
-				<p>- Carne</p>
-				<p>- Cebolla</p>
-			</div>
+			<form action="./sistema_pagos.php" method="post">
+				<input type="text" value="hamburguesa" style="display: none;" name="pedido_hambur">
+				<div class="hamburguesa">
+					<h2 style="text-align:center">Hamburguesa</h2><br>
+					<h3 style="text-align:center">$15.000</h3>
+					<img class="hambu" src="../images/Hamburguesa.jpg"><br>
+					<button class="order">Ordenar</button>
+					<br><br>
+					<strong><h3 style="text-align:center">Ingredientes:</h3></strong><br><br>
+					<p>- Pan</p>
+					<p>- Lechuga</p>
+					<p>- Mayonesa</p>
+					<p>- Tomate</p>
+					<p>- Carne</p>
+					<p>- Cebolla</p>
+					<input type="text" value="Pan" style="display: none;" name="Pan">
+					<input type="text" value="Lechuga" style="display: none;" name="Lechuga">
+					<input type="text" value="Mayonesa" style="display: none;" name="Mayonesa">
+					<input type="text" value="Tomate" style="display: none;" name="Tomate">
+					<input type="text" value="Carne" style="display: none;" name="Carne">
+					<input type="text" value="Cebolla" style="display: none;" name="Cebolla">
+				</div>
+			</form>
 			<div class="costilla">
 				<h2 style="text-align:center">Costilla de cerdo</h2><br>
 				<img class="costill" src="../images/costilla-de-cerdo-asada.jpg"><br>

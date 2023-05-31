@@ -27,7 +27,7 @@
 		<div class="celular" >
 			<img class="img" src="../images/celularparapag1.png" alt="">
 			<div class="text"></div>
-		  </div>
+		</div>
 	</header>
 	
 	<section class=" container nuestras-promociones">
@@ -75,8 +75,23 @@
 			<div class="container1">
 				
 				
-				<form action="">
-			
+				<form action="../BD/edit_inv.php" method="post">
+					<?php 
+						$pedido = $_POST['pedido_hambur'];
+						$pan = $_POST['Pan'];
+						$lechuga = $_POST['Lechuga'];
+						$mayonesa = $_POST['Mayonesa'];
+						$tomate = $_POST['Tomate'];
+						$carne = $_POST['Carne'];
+						$cebolla = $_POST['Cebolla'];
+					?>
+					<input type="text" value="<?php echo $pedido;?>" style="display: none;" name="pedido">
+					<input type="text" value="<?php echo $pan;?>" style="display: none;" name="pan">
+					<input type="text" value="<?php echo $lechuga;?>" style="display: none;" name="lechuga">
+					<input type="text" value="<?php echo $mayonesa;?>" style="display: none;" name="mayonesa">
+					<input type="text" value="<?php echo $tomate;?>" style="display: none;" name="tomate">
+					<input type="text" value="<?php echo $carne;?>" style="display: none;" name="carne">
+					<input type="text" value="<?php echo $cebolla;?>" style="display: none;" name="cebolla">
 					<div class="row">
 			
 						<div class="col">
